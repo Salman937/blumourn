@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blumourn</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+
+    <link href="css/style-responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav logo-menu" id="side-menu">
+                    <li class="">
+                        <div class="dropdown profile-element text-center"> 
+                            <span>
+                                <img alt="image" src="Assets/logo_white@2x.png" />
+                            </span>
+                        </div>
+                        <div class="logo-element">
+                            IN+
+                        </div>
+                    </li>
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 
+                            <span class="nav-label">Calendar</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-home" aria-hidden="true"></i> 
+                            <span class="nav-label">Home</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <span class="nav-label">Reviews</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                            <span class="nav-label">Payments</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span class="nav-label">Bookings</span> 
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0" style="background: blue">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="#">
+                <i class="fa fa-bars"></i> 
+            </a>
+            <!-- <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
+                <div class="form-group">
+                    <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                </div>
+            </form> -->
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <a href="login.html">
+                        <i class="fa fa-sign-out"></i> Log out
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        </div>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>CALENDER</h2>
+                <font class="pull-right" size="3" color="blue">NEED HELP?</font>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">Booking and Home Status</a>
+                    </li>
+                </ol>
+                
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrapper wrapper-content">
+
+                    <div id='calendar'></div>
+
+                </div>
+                </div>
+                <br>
+                <!-- <div class="footer">
+                    
+                </div> -->
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+
+    <div class="row container blumourn-footer">
+        <div class="col-sm-2">
+            <img alt="image" src="Assets/logo_white@2x.png" class="footer-logo" />
+        </div>
+        <div class="col-sm-2">
+            <ul>
+                <li>About Us</li>
+                <li>For Ios</li>
+                <li>For Android</li>
+                <li>Add Your Advertise</li>
+                <li>Partner with BluMourn</li>
+            </ul>
+        </div>
+        <div class="col-sm-2">
+            <ul>
+                <li>Conditions</li>
+                <li>Careers</li>
+                <li>FAQS</li>
+                <li>Contact</li>
+                <li>Terms & Conditions</li>
+            </ul>
+        </div>
+        <div class="col-sm-2">
+            <ul style="padding-top: 2em">
+                <li><img src="Assets/facebook.png" alt=""> Facebook</li>
+                <li><img src="Assets/twitter.png" alt=""> Twitter</li>
+                <li><img src="Assets/insta.png" alt=""> Instagram</li>
+            </ul>
+        </div>
+        <div class="col-sm-2">
+            <label>Subscribe to newslatter</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email Address" name="" style="background:transparent;">
+                    <div class="input-group-addon"><font color="black">OK</font></div>
+                </div>
+        </div>
+        <div class="col-sm-2">
+            <address>
+                497 Green Rd, Rosevilla, CB 95673
+                <br>+34 345 123 456
+                <br>blu@mourn.com
+            </address>
+        </div>
+    </div>
+
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+    <script src='fullcalendar/lib/moment.min.js'></script>
+    <script src='fullcalendar/fullcalendar.js'></script>
+
+    <script>
+        
+        $(function() {
+
+  // page is now ready, initialize the calendar...
+
+  $('#calendar').fullCalendar({
+    // put your options and callbacks here
+  })
+
+});
+    </script>
+
+</body>
+</html>

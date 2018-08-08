@@ -1,0 +1,149 @@
+/* Login Page */
+
+.logo-margin
+{
+	margin-top: 15em;
+}
+.login-inupt
+{
+	background:transparent;
+	border:none;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.login-btn
+{
+	background-color: #e0ebeb;
+	border:none;
+	color: black;
+	border-radius: 50px;
+}
+.navbar-right li a
+{
+	font-size: 20px;
+	font-weight: lighter;
+	color: white !important;
+}
+.partner-btn
+{
+	background:transparent;
+	border:1px solid white;
+	border-radius: 20px;
+}
+.navbar-toggle
+{
+	background:none;
+	margin-top: 1.5em;
+}
+
+/* Login Page End */
+
+/* Dashboard sidebar */
+
+.navbar-default 
+{
+	background-color: #262626 !important;
+}
+
+.navbar-static-top
+{
+	background-color: #374EA2;
+}
+
+.sidebar-active
+{
+	background-color: #000000 !important;
+  border-left: 5px solid #00e6e6;
+}
+#wrapper
+{
+	background-color: #e2e2e4;
+}
+.white-bg
+{
+  background-color: white;
+  color:;
+}
+.logo-menu
+{
+	background: #374EA2;
+}
+
+.logo-menu li a
+{
+	background: #e2e2e4;
+	color: black;
+	border-bottom: 1px solid #98999b;
+}
+.logo-menu li a:hover
+{
+	background: #374EA2 !important;
+}
+.nav > li.active > a
+{
+	background: #374EA2 !important;
+}
+.nav > li.active
+{
+	border-left: 0px !important;
+}
+
+.blumourn-footer
+{
+	background: #374EA2;
+	color: white;
+	width: 101%;
+}
+.blumourn-footer ul li
+{
+	list-style: none;
+	padding:5px;
+}
+.blumourn-footer ul
+{
+	padding-top: 15px;
+}
+.blumourn-footer .footer-logo
+{
+	padding-top: 3em
+}
+.blumourn-footer address
+{
+	padding-top: 4em
+}
+.blumourn-footer label
+{
+	padding-top: 4em
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active
+{
+	background: #374EA2 !important;
+}
+
+.wizard-big.wizard > .content {
+    min-height: 497px !important;
+}
+.ad
+{
+	width: 100%;
+}
+
+.payment-sidebar
+{
+	background: #e2e2e4;
+	height: 1050px;
+}
+.payment-sidebar h3
+{
+	padding: 1.5em 0px 0px 1.5em; 
+}
+.payment-sidebar ul li
+{
+	list-style: none;
+	padding: 7px;
+}
+.payment-sidebar .payment-active
+{
+}
+/* Dashboard sidebar end */
